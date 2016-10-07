@@ -8,8 +8,9 @@ Setup
   - (myenv) $ pip install -r requirements.txt
 
 Run
-  - (myenv) $ python manage.py runserver
+  - (myenv) $ python manage.py migrate
   - (myenv) $ python manage.py createsuperuser
+  - (myenv) $ python manage.py runserver
 
 
 To run django shell_plus and view Treasure objects
